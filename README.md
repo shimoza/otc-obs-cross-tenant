@@ -14,8 +14,7 @@ Tools for copying OBS buckets between OTC tenants and encrypting them with SSE-K
 | Script | Purpose |
 |---|---|
 | `obs-encrypt.py` | Set SSE-KMS bucket encryption + re-encrypt existing objects |
-| `OBS-Cross-Tenant-Copy-Guide.md` | Step-by-step guide for cross-tenant bucket copy with obsutil |
-| `test-crr-sse-kms.sh` | End-to-end test: CRR copy + SSE-KMS + re-encryption + independence verification |
+| `credentials.example.md` | Credential template for AK/SK and obsutil CRR setup |
 
 ## obs-encrypt.py
 
